@@ -1,67 +1,117 @@
-Voilega — Gizlilik Politikası
-Son güncelleme: 23.06.2026
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Gizlilik Politikası · Voilega</title>
+<meta name="description" content="Voilega Gizlilik Politikası" />
+<style>
+  :root{
+    --paper:#F5EADB; --card:#FAF3E8; --ink:#2B2420; --plum:#4B3B72;
+    --accent:#C24B30; --muted:#6B5E50; --line:rgba(43,36,32,0.12);
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:var(--paper); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.7; font-size:16px;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:760px; margin:0 auto; padding:40px 22px 72px;}
+  .lang{font-size:13px; color:var(--muted); margin-bottom:18px;}
+  .lang a{color:var(--plum); text-decoration:none; font-weight:600;}
+  .brand{font-family:Georgia,"Times New Roman",serif; font-size:15px; letter-spacing:.5px; color:var(--accent); font-weight:700; text-transform:uppercase;}
+  h1{font-family:Georgia,"Times New Roman",serif; font-size:34px; line-height:1.2; margin:6px 0 4px;}
+  .updated{color:var(--muted); font-size:14px; margin-bottom:30px;}
+  h2{font-family:Georgia,"Times New Roman",serif; color:var(--plum); font-size:22px; margin:34px 0 10px;}
+  p{margin:0 0 14px;}
+  ul{margin:0 0 16px; padding-left:22px;}
+  li{margin:0 0 8px;}
+  a{color:var(--plum); word-break:break-word;}
+  .card{background:var(--card); border:1px solid var(--line); border-radius:16px; padding:18px 20px; margin:18px 0;}
+  .card p:last-child{margin-bottom:0;}
+  hr{border:none; border-top:1px solid var(--line); margin:34px 0;}
+  footer{color:var(--muted); font-size:13px; margin-top:30px;}
+  strong{color:var(--ink);}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="lang">Türkçe · <a href="/privacy/en">English</a></div>
+    <div class="brand">Voilega</div>
+    <h1>Gizlilik Politikası</h1>
+    <div class="updated">Son güncelleme: 26 Haziran 2026</div>
 
-Bu metin, Voilega'nın veri uygulamalarını açıklayan bir bilgilendirmedir. Yayımlamadan önce gözden geçirmeniz ve mümkünse bir hukukçuya danışmanız önerilir.
-Bu Gizlilik Politikası, Voilega mobil uygulamasını ("Uygulama") sağlayan bireysel geliştirici Hikmet Elmas ("biz") tarafından kişisel verilerinizin nasıl toplandığını, kullanıldığını ve korunduğunu açıklar. Voilega, kamuya açık (public-domain) çocuk masallarını, sevdiklerinizin yapay zekâ ile oluşturulmuş sesiyle seslendirerek dinlemenizi sağlar.
+    <p>Bu Gizlilik Politikası, <strong>Voilega</strong> mobil uygulamasının (“Uygulama”) kişisel verilerinizi nasıl topladığını, kullandığını, sakladığını ve koruduğunu açıklar. Voilega; kamuya açık (public-domain) çocuk masallarını, ailenizin sevdiği bir kişinin yapay zekâ ile klonlanmış sesiyle seslendirir.</p>
 
-1. Topladığımız Veriler
+    <div class="card">
+      <p><strong>Veri sorumlusu:</strong> Hikmet Elmas (bireysel geliştirici)<br/>
+      <strong>Adres:</strong> Travessera de Dalt 6 BjA, 08024 Barcelona, İspanya<br/>
+      <strong>İletişim:</strong> <a href="mailto:info@voilega.com">info@voilega.com</a></p>
+    </div>
 
-Hesap bilgileri
-Ad (görünen isim), e-posta adresi ve şifre. Şifre, kimlik doğrulama sağlayıcımız tarafından şifrelenmiş (hash'lenmiş) olarak saklanır; düz metin şifrenizi görmeyiz.
-İsteğe bağlı profil fotoğrafı (yüklerseniz).
-Ses kayıtları ve oluşturulan ses (önemli)
-Bir "ses" eklediğinizde, izin verdiğiniz kişinin okuduğu birkaç kısa cümleyi kaydedersiniz. Bu kayıtlar, sentetik bir ses modeli ("ses klonu") oluşturmak üzere ses teknolojisi sağlayıcımız ElevenLabs'e iletilir ve orada işlenip saklanır.
-Oluşturulan ses modeli ve bu sesle üretilen seslendirme dosyaları, hesabınızla ilişkilendirilerek saklanır.
-Bir kişinin sesi, bazı yasal düzenlemelerde hassas/biyometrik veri sayılabilir. Bu nedenle ses eklerken, sesini kaydettiğiniz kişiden açık izin aldığınızı onaylamanızı isteriz. Sesleri yalnızca size masal seslendirmek için kullanırız; üçüncü kişilerle paylaşmaz veya satmayız.
-Kullanım ve abonelik bilgileri
-Dinleme etkinliği (hangi masalları tamamladığınız, toplam dinleme süresi gibi) — uygulama içi istatistikler için kullanılır.
-Abonelik durumu (ücretsiz/premium, plan tipi, yenilenme tarihi). Ödemeler Apple üzerinden alınır; kart/banka bilgilerinizi görmez ve saklamayız. Abonelik durumunu yönetmek için RevenueCat hizmetini kullanırız.
-Uygulamanın çalışması için gereken sınırlı teknik kayıtlar.
-2. Verileri Nasıl Kullanırız
+    <h2>1. Topladığımız Veriler</h2>
+    <p>Uygulamayı kullanırken aşağıdaki verileri toplayabiliriz:</p>
+    <ul>
+      <li><strong>Hesap bilgileri:</strong> Kayıt sırasında verdiğiniz e-posta adresi ve ad/soyad bilgisi.</li>
+      <li><strong>Ses kayıtları:</strong> Bir sesi klonlamak için kaydettiğiniz ses örnekleri ve bunlardan üretilen ses modeli. Ses oluşturma işlemi hizmet sağlayıcımız <strong>ElevenLabs</strong> üzerinden yapılır.</li>
+      <li><strong>Uygulama içi tercih ve ilerleme:</strong> Dil tercihi, oluşturduğunuz sesler, dinleme ilerlemesi ve favoriler gibi, Uygulamanın çalışması için gereken veriler.</li>
+      <li><strong>Abonelik bilgisi:</strong> Premium aboneliğin durumu. Ödemeler Apple App Store ve <strong>RevenueCat</strong> üzerinden yürütülür; kart/ödeme bilgilerinizi biz görmez ve saklamayız.</li>
+    </ul>
 
-Hesabınızı oluşturmak ve oturumunuzu sürdürmek.
-Eklediğiniz sesle masalları seslendirmek (temel hizmet).
-Aboneliğinizi yönetmek ve premium özellikleri açmak.
-Uygulama içi istatistikleri göstermek ve hizmeti iyileştirmek.
-Güvenlik, dolandırıcılığın önlenmesi ve yasal yükümlülükler.
-Reklam göstermiyoruz, verilerinizi reklam amacıyla satmıyoruz ve üçüncü taraf analitik/izleme araçları (ör. çökme veya kullanım takibi) kullanmıyoruz.
+    <div class="card">
+      <p><strong>Reklam ve takip yok.</strong> Voilega; reklam göstermez, üçüncü taraf analitik/izleme (tracking) araçları kullanmaz ve verilerinizi pazarlama amacıyla satmaz.</p>
+    </div>
 
-3. Verileri Paylaştığımız Hizmet Sağlayıcılar
+    <h2>2. Verileri Nasıl Kullanırız</h2>
+    <ul>
+      <li>Hesabınızı oluşturmak ve oturumunuzu yönetmek.</li>
+      <li>Kaydettiğiniz sesten bir ses modeli üretmek ve masalları bu sesle seslendirmek.</li>
+      <li>Dinleme ilerlemenizi, favorilerinizi ve dil tercihinizi hatırlamak.</li>
+      <li>Premium abonelik erişimini yönetmek.</li>
+      <li>Hizmeti sürdürmek, güvenliğini sağlamak ve teknik sorunları gidermek.</li>
+    </ul>
 
-Hizmeti sunmak için aşağıdaki güvenilir sağlayıcılarla, yalnızca gerekli ölçüde veri paylaşırız:
+    <h2>3. Ses Kayıtları Hakkında Önemli Bilgi</h2>
+    <p>Ses klonlama için kaydettiğiniz ham ses örnekleri, ses modelini oluşturmak üzere <strong>ElevenLabs</strong>’a iletilir ve ElevenLabs tarafından kendi sistemlerinde saklanabilir. Bir sesi yalnızca, o sesin sahibi olan ya da açık rızasını aldığınız bir kişinin sesiyle oluşturmalısınız. Bir sesi Uygulama içinden sildiğinizde, ilgili ses modelini kaldırmak için makul çabayı gösteririz.</p>
 
-Supabase — kimlik doğrulama, veritabanı ve dosya depolama (hesap, ses modelleri, ses dosyaları).
-ElevenLabs — ses klonlama ve metin-konuşma seslendirme (ham ses kayıtları burada işlenir ve saklanır).
-RevenueCat — abonelik durumunun yönetimi.
-Apple — uygulama içi satın alma ve ödeme işlemleri.
-Bu sağlayıcıların sunucuları yurt dışında (ör. ABD/AB) bulunabilir; verileriniz uluslararası olarak aktarılabilir ve aktarımlarda uygun korumaların sağlanması için makul çaba gösteririz.
+    <h2>4. Veri Paylaşımı ve Hizmet Sağlayıcılar</h2>
+    <p>Verilerinizi yalnızca Uygulamanın çalışması için gerekli olan hizmet sağlayıcılarla paylaşırız:</p>
+    <ul>
+      <li><strong>Supabase</strong> — hesap, içerik ve dosya barındırma (kimlik doğrulama, veritabanı, depolama).</li>
+      <li><strong>ElevenLabs</strong> — ses klonlama ve seslendirme.</li>
+      <li><strong>RevenueCat &amp; Apple</strong> — abonelik yönetimi ve ödeme.</li>
+    </ul>
+    <p>Bu sağlayıcılar verileri yalnızca bize hizmet sunmak için işler. Yasal bir yükümlülük olmadıkça verilerinizi başka üçüncü taraflarla paylaşmayız.</p>
 
-4. Saklama ve Silme
+    <h2>5. Hukuki Dayanak</h2>
+    <p>Avrupa Birliği / İspanya’da geçerli <strong>GDPR</strong> ve Türkiye’de geçerli <strong>KVKK</strong> kapsamında verilerinizi; sözleşmenin ifası (hizmeti sunmak), açık rızanız (özellikle ses kayıtları) ve meşru menfaat (hizmetin güvenliği) hukuki dayanaklarına göre işleriz.</p>
 
-Verilerinizi, hesabınız aktif olduğu sürece veya hizmeti sunmak için gerekli olduğu kadar saklarız.
-Ham ses kayıtları, ses modelini oluşturmak ve sürdürmek amacıyla ElevenLabs tarafından saklanır.
-Uygulama içinde bir sesi sildiğinizde, ilgili ses modelini (klonu) ve o sesle üretilmiş seslendirmeleri sileriz.
-Hesabınızın ve ilgili tüm verilerin (sağlayıcılarda tutulanlar dâhil) silinmesini istemek için info@voilega.com adresinden bize ulaşabilirsiniz.
-5. Çocukların Gizliliği
+    <h2>6. Verilerin Saklanması</h2>
+    <p>Verilerinizi, hesabınız aktif olduğu sürece ve hizmeti sunmak için gerekli olduğu ölçüde saklarız. Hesabınızı veya verilerinizi sildiğinizde, ilgili kayıtları sistemlerimizden makul bir süre içinde kaldırırız. ElevenLabs’ta tutulan ses verileri için o sağlayıcının saklama koşulları da geçerlidir.</p>
 
-Voilega, çocuklara masal dinletmek için ebeveynler/veliler (yetişkinler) tarafından kullanılmak üzere tasarlanmıştır. Bilerek 13 yaşından (veya bulunduğunuz ülkede geçerli yaştan) küçük çocuklardan kişisel veri toplamayız. Yanlışlıkla bir çocuğa ait veri aldığımızı düşünüyorsanız bizimle iletişime geçin, gerekli silme işlemini yapalım.
+    <h2>7. Çocukların Gizliliği</h2>
+    <p>Voilega bir aile uygulamasıdır ve masallar çocuklar için tasarlanmıştır; ancak hesaplar yetişkinler tarafından oluşturulur ve yönetilir. Bilerek çocuklardan doğrudan kişisel veri toplamayız. Bir çocuğun sesini yalnızca, ebeveyni/yasal vasisi olarak siz kaydedip yönetirsiniz. Çocuğunuza ait bir verinin rızanız olmadan işlendiğini düşünüyorsanız <a href="mailto:info@voilega.com">info@voilega.com</a> adresinden bize ulaşın; gerekli işlemi yaparız.</p>
 
-6. Güvenlik
+    <h2>8. Haklarınız</h2>
+    <p>GDPR ve KVKK kapsamında; verilerinize erişme, düzeltilmesini veya silinmesini isteme, işlenmesini kısıtlama ve rızanızı geri çekme haklarına sahipsiniz. Bu haklarınızı kullanmak için <a href="mailto:info@voilega.com">info@voilega.com</a> adresine yazabilirsiniz. Ayrıca hesabınızı ve ilgili verileri Uygulama içinden de silebilirsiniz.</p>
 
-Verilerinizi korumak için makul teknik ve idari önlemler (şifreli bağlantılar, erişim kısıtlamaları vb.) uygularız. Ancak internet üzerinden hiçbir aktarımın veya depolamanın %100 güvenli olduğunu garanti edemeyiz.
+    <h2>9. Güvenlik</h2>
+    <p>Verilerinizi korumak için makul teknik ve idari önlemler uygularız (şifreli bağlantılar, erişim kontrolleri vb.). Hiçbir sistem %100 güvenli olmasa da, verilerinizi korumak için endüstri standardı uygulamaları gözetiriz.</p>
 
-7. Haklarınız (KVKK / GDPR)
+    <h2>10. Uluslararası Veri Aktarımı</h2>
+    <p>Hizmet sağlayıcılarımız verileri farklı ülkelerdeki sunucularda işleyebilir. Bu aktarımların geçerli veri koruma mevzuatına uygun şekilde yapılmasını gözetiriz.</p>
 
-Bulunduğunuz yargı bölgesine göre; verilerinize erişme, düzeltme, silme, işlemeyi kısıtlama ve itiraz etme gibi haklarınız olabilir. Geliştirici Avrupa Birliği'nde (İspanya) yerleşik olduğundan AB Genel Veri Koruma Tüzüğü (GDPR), Türkiye'deki kullanıcılar için ise 6698 sayılı KVKK uygulanabilir. Haklarınızı kullanmak için info@voilega.com adresine yazabilirsiniz.
+    <h2>11. Bu Politikadaki Değişiklikler</h2>
+    <p>Bu Gizlilik Politikası’nı zaman zaman güncelleyebiliriz. Önemli değişikliklerde Uygulama veya web sitemiz üzerinden bilgilendiririz. Güncel sürüm her zaman bu sayfada yayınlanır.</p>
 
-8. Bu Politikadaki Değişiklikler
+    <h2>12. İletişim</h2>
+    <p>Gizlilikle ilgili her türlü soru, talep ve başvuru için:<br/>
+    <a href="mailto:info@voilega.com">info@voilega.com</a></p>
 
-Bu politikayı zaman zaman güncelleyebiliriz. Önemli değişikliklerde uygulama içinde veya bu sayfada bildirimde bulunuruz. En güncel sürüm her zaman bu sayfada yer alır.
-
-9. İletişim
-
-Hikmet Elmas (bireysel geliştirici)
-Travessera de Dalt 6 BjA, 08024 Barcelona, İspanya
-E-posta: info@voilega.com
-
-© 2026 Voilega — Hikmet Elmas. Tüm hakları saklıdır.
+    <hr/>
+    <footer>© 2026 Hikmet Elmas · Voilega</footer>
+  </div>
+</body>
+</html>
